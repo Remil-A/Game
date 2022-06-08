@@ -12,7 +12,7 @@ def Choose_Option():
     elif user_choice in ["Scissors", "scissors", "s", "S"]:
         user_choice = "s"
     else:
-        print("I don't understand, try again.")
+        print("Error, try again.")
         Choose_Option()
     return user_choice
 
